@@ -1,9 +1,11 @@
+require('dotenv').config();
 const express = require("express");
 const mongoose = require("mongoose");
 const Note = require("./models/note.model.js");
 const noteRoute = require("./routes/note.route.js");
 var cors = require("cors");
 const app = express();
+const MONGODB_URI = process.env.MONGODB_URI;
 
 app.use(
   cors({
@@ -25,9 +27,7 @@ app.get("/", (req, res) => {
 });
 
 mongoose
-  .connect(
-    "mongodb+srv://abhishek751982:8JAnoeqXR0xakeaz@backenddb.monlshz.mongodb.net/notes-app?retryWrites=true&w=majority&appName=BackendDb"
-  )
+  .connect(MONGODB_URI)
   .then(() => {
     console.log("Connected to database!");
     app.listen(5000, () => {
