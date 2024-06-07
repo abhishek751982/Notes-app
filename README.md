@@ -40,7 +40,7 @@ Start the server
 
 ## About Me
 
-I am Abhishek Sharma a pre-final year student at IIIT Gwalior pursuing Integrated Post Graduate (B.Tech+M.Tech) degree in Information Technology. Do checkout my LinkedIn and connect with me.
+I am Abhishek Sharma a final year student at IIIT Gwalior pursuing Integrated Post Graduate (B.Tech+M.Tech) degree in Information Technology. Do checkout my LinkedIn and connect with me.
 
 ### Connect with me :
 
