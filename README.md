@@ -1,6 +1,6 @@
 # notes-app
 
-It is a Full stack MERN project, integrated CRUD API where user can create, update and delete notes using Node.js, Express.js, React.js and MongoDB.
+A simple and intuitive notes application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to create, update, and delete notes seamlessly.
 
 ## TechStack
 
