@@ -15,7 +15,7 @@ A simple and intuitive notes application built using the MERN stack (MongoDB, Ex
 Clone the project
 
 ```bash
-  git clone https://github.com/abhishek751982/notes-app
+  git clone https://github.com/abhishek751982/notes-app.git
 ```
 
 Install dependencies
